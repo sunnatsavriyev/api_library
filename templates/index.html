@@ -1,0 +1,10 @@
+<h1>Bu yerda kitoblar bor</h1>
+
+{% for books in book %}
+    <ul>
+        <li>Title :{{books.title}} </li>
+        <li>Subtitle :{{books.subtitle}} </li>
+        <li>Auther :{{books.auther}} </li>
+    </ul>
+
+{% endfor %}
